@@ -646,7 +646,7 @@ input {
   position: absolute;
   top: 50%;
   left: 50%;
-  translate: -50% -50%;
+  transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
@@ -869,7 +869,7 @@ input {
   cursor: pointer;
 }
 
-.modal-checkbox:checked + .modal-checkbox-span {
+.modal-checkbox:checked + .modal-checkbox-span > .icon-checkbox-clean {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -881,10 +881,10 @@ input {
 }
 
 .modal-form-button {
-  /* display: block;
+  display: block;
   min-width: 169px;
   height: 56px;
-  padding: 16px 32px; */
+  padding: 16px 32px;
 
   border: none;
   border-radius: 4px;
