@@ -837,9 +837,7 @@ input {
 }
 
 .modal-checkbox-title {
-  display: block;
   text-align: center;
-  position: relative;
   color: #8e8f99;
   margin: 0 auto;
   font-size: 12px;
@@ -848,9 +846,6 @@ input {
 }
 
 .modal-checkbox-span {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
